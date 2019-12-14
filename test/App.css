@@ -1,0 +1,82 @@
+ul li{
+	text-align:center;
+		background-color:blue;
+	
+}
+h1 {
+ color:blue;
+ text-align:center;
+ font-style:bold;
+ font-family:TimesNewRoman;
+
+}
+
+a {
+	 color:green;
+ text-align:center;
+ font-style:bold;
+ font-family:Sans Serif;
+ font-size:16pt;
+
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
+button:hover{
+
+  background-color: rgb(20, 35, 245);
+}
+button:visited{
+
+  background-color: rgb(27, 27, 34);
+}
+  button{
+    width: 100%;
+    height: 100%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16pt;
+  cursor: pointer;
+  
+  }
+table {
+  font-family: TimesNewRoman;
+  border-collapse: collapse;
+  width: 700px;
+  height: 200px;
+  left:35px;
+  margin-left: 170px;
+
+}
+td {
+  border: 0.8px solid #252222;
+  text-align: center;
+  padding: 10px;
+  font-size: 13pt;
+  color: rgb(91, 154, 209);
+  cursor: pointer;
+  font-style: bold;
+}
+th{
+  color: rgb(250, 250, 255);
+  border: 0.8px solid #252222;
+  padding: 10px;
+  background-color: #0a080e;
+}
+tr:nth-child(even) {
+  background-color: #cecad4;
+}
+
